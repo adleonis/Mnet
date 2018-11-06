@@ -1,0 +1,16 @@
+11/06/2018 01:35:55 PM Server Started
+11/06/2018 01:36:22 PM Server Started
+11/06/2018 01:36:54 PM Just received a transaction request from: -----BEGIN PUBLIC KEY-----
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEvI013Pn6t4zAqPV/govRVKySafoX
+BpkyrulRiPqQilJ3d2VxR61nWSONxEZ1vRxbgX30ZxG9xwmIesu8jzxs/A==
+-----END PUBLIC KEY-----
+11/06/2018 01:36:54 PM The signature is valid.
+11/06/2018 01:36:54 PM -- MATH IS OK --
+11/06/2018 01:36:54 PM -- Account in sync, checked --
+11/06/2018 01:36:54 PM -- Account in sync, checked --
+11/06/2018 01:36:54 PM -- Account in sync, checked --
+11/06/2018 01:36:54 PM -- ALL ACCOUNTS SYNCED and TRANSACTION INFO VERIFIED --
+11/06/2018 01:36:54 PM ORM: **DB Update Successful: Local Update of Balance complete**
+11/06/2018 01:36:54 PM ORM: **DB Update Successful: Local Update of Balance complete**
+11/06/2018 01:36:54 PM ORM: **DB Update Successful: Local Update of Balance complete**
+11/06/2018 01:36:54 PM **DB Update Successful: Local Transfer to mempool complete**

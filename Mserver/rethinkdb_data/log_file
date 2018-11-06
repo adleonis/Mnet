@@ -1,0 +1,133 @@
+2018-11-03T15:26:36.329163700 40.034307s notice: Recursively removing directory /home/silverninja/Pensiv/Mnet2/Mserver/rethinkdb_data/tmp
+2018-11-03T15:26:36.352362800 40.057504s notice: Initializing directory /home/silverninja/Pensiv/Mnet2/Mserver/rethinkdb_data
+2018-11-03T15:26:36.352654800 40.057796s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/silverninja/Pensiv/Mnet2/Mserver/rethinkdb_data' did not already exist or is empty.)
+2018-11-03T15:26:36.352795100 40.057937s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-11-03T15:26:36.385112900 40.090264s notice: Running on Linux 4.4.0-17134-Microsoft x86_64
+2018-11-03T15:26:36.385357600 40.090499s notice: Loading data from directory /home/silverninja/Pensiv/Mnet2/Mserver/rethinkdb_data
+2018-11-03T15:26:36.551049800 40.256191s info: Automatically using cache size of 711 MB
+2018-11-03T15:26:36.554212400 40.259354s notice: Listening for intracluster connections on port 29015
+2018-11-03T15:26:36.557890900 40.263032s notice: Listening for client driver connections on port 28015
+2018-11-03T15:26:36.558338300 40.263480s notice: Listening for administrative HTTP connections on port 8080
+2018-11-03T15:26:36.558363000 40.263504s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-11-03T15:26:36.558402500 40.263544s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-11-03T15:26:36.558416300 40.263558s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-11-03T15:26:36.558450100 40.263592s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-11-03T15:26:36.558481200 40.263623s notice: Server ready, "DESKTOP_OEUJ55M_xpx" 62bc24b8-be71-474f-bdd9-26492c11cf15
+2018-11-03T15:26:57.111898700 60.817041s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2018-11-03T15:29:03.382790200 187.087932s info: Table da8ee885-cca2-4e66-99d1-4e16c47211bc: Starting a new Raft election for term 1.
+2018-11-03T15:29:03.383263400 187.088405s info: Table da8ee885-cca2-4e66-99d1-4e16c47211bc: Added replica on this server.
+2018-11-03T15:29:03.405180300 187.110322s info: Table da8ee885-cca2-4e66-99d1-4e16c47211bc: This server is Raft leader for term 1. Latest log index is 0.
+2018-11-03T15:29:04.145906600 187.851048s info: Table 10f16f8b-b2d6-4ae5-ab88-b87f9f4f2d1c: Starting a new Raft election for term 1.
+2018-11-03T15:29:04.146295500 187.851438s info: Table 10f16f8b-b2d6-4ae5-ab88-b87f9f4f2d1c: Added replica on this server.
+2018-11-03T15:29:04.167732900 187.872874s info: Table 10f16f8b-b2d6-4ae5-ab88-b87f9f4f2d1c: This server is Raft leader for term 1. Latest log index is 0.
+2018-11-03T15:29:04.935720300 188.640862s info: Table c86bc55f-d7e6-4c67-8143-2166f15cec9c: Starting a new Raft election for term 1.
+2018-11-03T15:29:04.936283100 188.641426s info: Table c86bc55f-d7e6-4c67-8143-2166f15cec9c: Added replica on this server.
+2018-11-03T15:29:04.960257600 188.665399s info: Table c86bc55f-d7e6-4c67-8143-2166f15cec9c: This server is Raft leader for term 1. Latest log index is 0.
+2018-11-03T15:29:05.743303900 189.448445s info: Table 8c04933c-4ac9-463b-8690-318104652ede: Starting a new Raft election for term 1.
+2018-11-03T15:29:05.743826200 189.448967s info: Table 8c04933c-4ac9-463b-8690-318104652ede: Added replica on this server.
+2018-11-03T15:29:05.772144200 189.477286s info: Table 8c04933c-4ac9-463b-8690-318104652ede: This server is Raft leader for term 1. Latest log index is 0.
+2018-11-03T16:49:25.596121700 5009.301264s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2018-11-03T16:49:25.596389400 5009.301532s notice: Shutting down client connections...
+2018-11-03T16:49:25.597394300 5009.302537s notice: All client connections closed.
+2018-11-03T16:49:25.597428500 5009.302570s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-11-03T16:49:25.626479300 5009.331621s notice: Storage engine shut down.
+2018-11-03T16:49:53.926898200 0.312766s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-11-03T16:49:53.964122300 0.349999s notice: Running on Linux 4.4.0-17134-Microsoft x86_64
+2018-11-03T16:49:53.964425500 0.350293s notice: Loading data from directory /home/silverninja/Pensiv/Mnet2/Mserver/rethinkdb_data
+2018-11-03T16:49:54.048273800 0.434140s info: Automatically using cache size of 516 MB
+2018-11-03T16:49:54.051057300 0.436924s notice: Listening for intracluster connections on port 29015
+2018-11-03T16:49:54.181547400 0.567415s notice: Listening for client driver connections on port 28015
+2018-11-03T16:49:54.182061100 0.567929s notice: Listening for administrative HTTP connections on port 8080
+2018-11-03T16:49:54.182076700 0.567944s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-11-03T16:49:54.182092500 0.567959s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-11-03T16:49:54.182109400 0.567976s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-11-03T16:49:54.182128800 0.567997s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-11-03T16:49:54.182144000 0.568011s notice: Server ready, "DESKTOP_OEUJ55M_xpx" 62bc24b8-be71-474f-bdd9-26492c11cf15
+2018-11-03T16:49:55.138787600 1.524654s info: Table c86bc55f-d7e6-4c67-8143-2166f15cec9c: Starting a new Raft election for term 2.
+2018-11-03T16:49:55.169629200 1.555496s info: Table c86bc55f-d7e6-4c67-8143-2166f15cec9c: This server is Raft leader for term 2. Latest log index is 3.
+2018-11-03T16:49:55.461894300 1.847763s info: Table 8c04933c-4ac9-463b-8690-318104652ede: Starting a new Raft election for term 2.
+2018-11-03T16:49:55.510567800 1.896436s info: Table 8c04933c-4ac9-463b-8690-318104652ede: This server is Raft leader for term 2. Latest log index is 3.
+2018-11-03T16:49:55.906285900 2.292154s info: Table da8ee885-cca2-4e66-99d1-4e16c47211bc: Starting a new Raft election for term 2.
+2018-11-03T16:49:56.017015300 2.402883s info: Table 10f16f8b-b2d6-4ae5-ab88-b87f9f4f2d1c: Starting a new Raft election for term 2.
+2018-11-03T16:49:56.218260100 2.604128s info: Table da8ee885-cca2-4e66-99d1-4e16c47211bc: This server is Raft leader for term 2. Latest log index is 3.
+2018-11-03T16:49:56.218347200 2.604214s info: Table 10f16f8b-b2d6-4ae5-ab88-b87f9f4f2d1c: This server is Raft leader for term 2. Latest log index is 3.
+2018-11-03T16:50:50.135873600 56.521740s info: Table 5688ec30-669b-4df9-a0a7-9b84a6953fa9: Starting a new Raft election for term 1.
+2018-11-03T16:50:50.136186300 56.522053s info: Table 5688ec30-669b-4df9-a0a7-9b84a6953fa9: Added replica on this server.
+2018-11-03T16:50:50.157703400 56.543570s info: Table 5688ec30-669b-4df9-a0a7-9b84a6953fa9: This server is Raft leader for term 1. Latest log index is 0.
+2018-11-03T16:50:50.936094400 57.321961s info: Table 2e6d6af2-7a60-4c2b-a7d7-50bb1d6287ab: Starting a new Raft election for term 1.
+2018-11-03T16:50:50.936575800 57.322443s info: Table 2e6d6af2-7a60-4c2b-a7d7-50bb1d6287ab: Added replica on this server.
+2018-11-03T16:50:50.958718800 57.344586s info: Table 2e6d6af2-7a60-4c2b-a7d7-50bb1d6287ab: This server is Raft leader for term 1. Latest log index is 0.
+2018-11-03T16:50:51.690526200 58.076393s info: Table e8b5e6a7-0e2b-4667-b3bb-c2fab3ee8488: Starting a new Raft election for term 1.
+2018-11-03T16:50:51.690907000 58.076775s info: Table e8b5e6a7-0e2b-4667-b3bb-c2fab3ee8488: Added replica on this server.
+2018-11-03T16:50:51.712688300 58.098555s info: Table e8b5e6a7-0e2b-4667-b3bb-c2fab3ee8488: This server is Raft leader for term 1. Latest log index is 0.
+2018-11-03T16:50:52.489168900 58.875035s info: Table 068f46d3-fc56-4c93-add4-eb31fe4a11c6: Starting a new Raft election for term 1.
+2018-11-03T16:50:52.489443300 58.875309s info: Table 068f46d3-fc56-4c93-add4-eb31fe4a11c6: Added replica on this server.
+2018-11-03T16:50:52.513040400 58.898907s info: Table 068f46d3-fc56-4c93-add4-eb31fe4a11c6: This server is Raft leader for term 1. Latest log index is 0.
+2018-11-03T16:54:26.960505200 273.346371s notice: Removing file /home/silverninja/Pensiv/Mnet2/Mserver/rethinkdb_data/068f46d3-fc56-4c93-add4-eb31fe4a11c6
+2018-11-03T16:54:26.960515700 273.346381s info: Table 068f46d3-fc56-4c93-add4-eb31fe4a11c6: Deleted the table.
+2018-11-03T16:54:26.998380500 273.384248s notice: Removing file /home/silverninja/Pensiv/Mnet2/Mserver/rethinkdb_data/2e6d6af2-7a60-4c2b-a7d7-50bb1d6287ab
+2018-11-03T16:54:26.998398400 273.384265s info: Table 2e6d6af2-7a60-4c2b-a7d7-50bb1d6287ab: Deleted the table.
+2018-11-03T16:54:27.031530500 273.417397s notice: Removing file /home/silverninja/Pensiv/Mnet2/Mserver/rethinkdb_data/5688ec30-669b-4df9-a0a7-9b84a6953fa9
+2018-11-03T16:54:27.031547000 273.417414s info: Table 5688ec30-669b-4df9-a0a7-9b84a6953fa9: Deleted the table.
+2018-11-03T16:54:27.064603800 273.450470s notice: Removing file /home/silverninja/Pensiv/Mnet2/Mserver/rethinkdb_data/e8b5e6a7-0e2b-4667-b3bb-c2fab3ee8488
+2018-11-03T16:54:27.064618300 273.450485s info: Table e8b5e6a7-0e2b-4667-b3bb-c2fab3ee8488: Deleted the table.
+2018-11-03T16:54:32.988168700 279.374035s info: Table e3fc9b0e-afc4-496e-9104-d20c4684ad17: Starting a new Raft election for term 1.
+2018-11-03T16:54:32.988488500 279.374359s info: Table e3fc9b0e-afc4-496e-9104-d20c4684ad17: Added replica on this server.
+2018-11-03T16:54:33.010887500 279.396754s info: Table e3fc9b0e-afc4-496e-9104-d20c4684ad17: This server is Raft leader for term 1. Latest log index is 0.
+2018-11-03T16:54:33.765348500 280.151215s info: Table 56412b6d-d45e-43fa-8212-71a2f2515c3f: Starting a new Raft election for term 1.
+2018-11-03T16:54:33.765601400 280.151468s info: Table 56412b6d-d45e-43fa-8212-71a2f2515c3f: Added replica on this server.
+2018-11-03T16:54:33.787706900 280.173574s info: Table 56412b6d-d45e-43fa-8212-71a2f2515c3f: This server is Raft leader for term 1. Latest log index is 0.
+2018-11-03T16:54:34.520441100 280.906308s info: Table 5aa8897d-1dfd-484f-b437-d40fc9694689: Starting a new Raft election for term 1.
+2018-11-03T16:54:34.520740200 280.906607s info: Table 5aa8897d-1dfd-484f-b437-d40fc9694689: Added replica on this server.
+2018-11-03T16:54:34.541912400 280.927779s info: Table 5aa8897d-1dfd-484f-b437-d40fc9694689: This server is Raft leader for term 1. Latest log index is 0.
+2018-11-03T16:54:35.319434600 281.705301s info: Table 7e667deb-f97f-4144-a51e-e3be80386e2e: Starting a new Raft election for term 1.
+2018-11-03T16:54:35.319687500 281.705559s info: Table 7e667deb-f97f-4144-a51e-e3be80386e2e: Added replica on this server.
+2018-11-03T16:54:35.341719000 281.727586s info: Table 7e667deb-f97f-4144-a51e-e3be80386e2e: This server is Raft leader for term 1. Latest log index is 0.
+2018-11-03T16:57:37.177865400 463.563732s notice: Removing file /home/silverninja/Pensiv/Mnet2/Mserver/rethinkdb_data/56412b6d-d45e-43fa-8212-71a2f2515c3f
+2018-11-03T16:57:37.177877300 463.563743s info: Table 56412b6d-d45e-43fa-8212-71a2f2515c3f: Deleted the table.
+2018-11-03T16:57:37.209495500 463.595361s notice: Removing file /home/silverninja/Pensiv/Mnet2/Mserver/rethinkdb_data/5aa8897d-1dfd-484f-b437-d40fc9694689
+2018-11-03T16:57:37.209505000 463.595371s info: Table 5aa8897d-1dfd-484f-b437-d40fc9694689: Deleted the table.
+2018-11-03T16:57:37.237269100 463.623136s notice: Removing file /home/silverninja/Pensiv/Mnet2/Mserver/rethinkdb_data/7e667deb-f97f-4144-a51e-e3be80386e2e
+2018-11-03T16:57:37.237281400 463.623147s info: Table 7e667deb-f97f-4144-a51e-e3be80386e2e: Deleted the table.
+2018-11-03T16:57:37.264664000 463.650530s notice: Removing file /home/silverninja/Pensiv/Mnet2/Mserver/rethinkdb_data/e3fc9b0e-afc4-496e-9104-d20c4684ad17
+2018-11-03T16:57:37.264672500 463.650538s info: Table e3fc9b0e-afc4-496e-9104-d20c4684ad17: Deleted the table.
+2018-11-03T16:57:48.532501700 474.918369s info: Table c46e36c4-db38-4852-b63c-148c52f49e5e: Starting a new Raft election for term 1.
+2018-11-03T16:57:48.532836400 474.918704s info: Table c46e36c4-db38-4852-b63c-148c52f49e5e: Added replica on this server.
+2018-11-03T16:57:48.555776300 474.941643s info: Table c46e36c4-db38-4852-b63c-148c52f49e5e: This server is Raft leader for term 1. Latest log index is 0.
+2018-11-03T16:57:49.353391700 475.739258s info: Table b3356f2b-0446-4afb-a767-588b552f662a: Starting a new Raft election for term 1.
+2018-11-03T16:57:49.353613200 475.739480s info: Table b3356f2b-0446-4afb-a767-588b552f662a: Added replica on this server.
+2018-11-03T16:57:49.375119300 475.760986s info: Table b3356f2b-0446-4afb-a767-588b552f662a: This server is Raft leader for term 1. Latest log index is 0.
+2018-11-03T16:57:50.112618000 476.498485s info: Table 82607a7d-64ac-47de-9702-53d4ea18f3a2: Starting a new Raft election for term 1.
+2018-11-03T16:57:50.112843000 476.498710s info: Table 82607a7d-64ac-47de-9702-53d4ea18f3a2: Added replica on this server.
+2018-11-03T16:57:50.134054800 476.519922s info: Table 82607a7d-64ac-47de-9702-53d4ea18f3a2: This server is Raft leader for term 1. Latest log index is 0.
+2018-11-03T16:57:50.875585000 477.261452s info: Table 3106a21d-5ba0-4531-8be0-6255544eb8e7: Starting a new Raft election for term 1.
+2018-11-03T16:57:50.875888600 477.261755s info: Table 3106a21d-5ba0-4531-8be0-6255544eb8e7: Added replica on this server.
+2018-11-03T16:57:50.899323900 477.285191s info: Table 3106a21d-5ba0-4531-8be0-6255544eb8e7: This server is Raft leader for term 1. Latest log index is 0.
+2018-11-06T10:21:49.314840000 0.215740s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-11-06T10:21:49.334041100 0.234943s notice: Running on Linux 4.4.0-17134-Microsoft x86_64
+2018-11-06T10:21:49.334161000 0.235059s notice: Loading data from directory /home/silverninja/Pensiv/Mnet2/Mserver/rethinkdb_data
+2018-11-06T10:21:49.421258300 0.322159s info: Automatically using cache size of 1315 MB
+2018-11-06T10:21:49.429798300 0.330696s notice: Listening for intracluster connections on port 29015
+2018-11-06T10:21:49.705868300 0.606766s notice: Listening for client driver connections on port 28015
+2018-11-06T10:21:49.706386700 0.607286s notice: Listening for administrative HTTP connections on port 8080
+2018-11-06T10:21:49.706395100 0.607293s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-11-06T10:21:49.706400400 0.607298s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-11-06T10:21:49.706500200 0.607399s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-11-06T10:21:49.706506900 0.607407s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-11-06T10:21:49.706514700 0.607413s notice: Server ready, "DESKTOP_OEUJ55M_xpx" 62bc24b8-be71-474f-bdd9-26492c11cf15
+2018-11-06T10:21:50.752213200 1.653111s info: Table c86bc55f-d7e6-4c67-8143-2166f15cec9c: Starting a new Raft election for term 3.
+2018-11-06T10:21:50.768522900 1.669421s info: Table c86bc55f-d7e6-4c67-8143-2166f15cec9c: This server is Raft leader for term 3. Latest log index is 6.
+2018-11-06T10:21:50.769563400 1.670461s info: Table 10f16f8b-b2d6-4ae5-ab88-b87f9f4f2d1c: Starting a new Raft election for term 3.
+2018-11-06T10:21:50.805828400 1.706726s info: Table 10f16f8b-b2d6-4ae5-ab88-b87f9f4f2d1c: This server is Raft leader for term 3. Latest log index is 6.
+2018-11-06T10:21:50.988875000 1.889773s info: Table c46e36c4-db38-4852-b63c-148c52f49e5e: Starting a new Raft election for term 2.
+2018-11-06T10:21:51.008105700 1.909004s info: Table c46e36c4-db38-4852-b63c-148c52f49e5e: This server is Raft leader for term 2. Latest log index is 3.
+2018-11-06T10:21:51.073487700 1.974386s info: Table da8ee885-cca2-4e66-99d1-4e16c47211bc: Starting a new Raft election for term 3.
+2018-11-06T10:21:51.094986100 1.995885s info: Table da8ee885-cca2-4e66-99d1-4e16c47211bc: This server is Raft leader for term 3. Latest log index is 6.
+2018-11-06T10:21:51.148430200 2.049329s info: Table 82607a7d-64ac-47de-9702-53d4ea18f3a2: Starting a new Raft election for term 2.
+2018-11-06T10:21:51.161394900 2.062293s info: Table 82607a7d-64ac-47de-9702-53d4ea18f3a2: This server is Raft leader for term 2. Latest log index is 3.
+2018-11-06T10:21:51.170662800 2.071561s info: Table b3356f2b-0446-4afb-a767-588b552f662a: Starting a new Raft election for term 2.
+2018-11-06T10:21:51.187446000 2.088344s info: Table b3356f2b-0446-4afb-a767-588b552f662a: This server is Raft leader for term 2. Latest log index is 3.
+2018-11-06T10:21:51.221386900 2.122286s info: Table 3106a21d-5ba0-4531-8be0-6255544eb8e7: Starting a new Raft election for term 2.
+2018-11-06T10:21:51.241448300 2.142347s info: Table 3106a21d-5ba0-4531-8be0-6255544eb8e7: This server is Raft leader for term 2. Latest log index is 3.
+2018-11-06T10:21:51.246127200 2.147026s info: Table 8c04933c-4ac9-463b-8690-318104652ede: Starting a new Raft election for term 3.
+2018-11-06T10:21:51.271139800 2.172039s info: Table 8c04933c-4ac9-463b-8690-318104652ede: This server is Raft leader for term 3. Latest log index is 6.

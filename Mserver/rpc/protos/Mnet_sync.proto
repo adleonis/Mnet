@@ -1,0 +1,81 @@
+//Stephane Gallet 11/01/2018 -- Pensiv LLC
+// Edit 001: changing Accountupdate to multiple accounts
+// temp edit, trying simple messages over streams
+
+syntax = "proto3";
+
+package Mnetsync;
+
+service Mnetsync{
+    // When a peer asks for info, return your trusted peers
+    rpc GetPeers(PeerDemand) returns (TrustedPeerList) {}
+
+    // Return account info when requested
+    rpc GetAccountInfo(AccountDemand) returns (AccountInfo) {}
+
+    // Process Transaction when requested - The response is a stream, until accepted or denied (pending, mempool, accepted, denied)
+    rpc ProcessTransaction(TransactionRequest) returns (stream TransactionStatus) {}
+
+    // Confirm Transaction -- Nodes open up confirmation streams on a transaction, until it has enough confirmations
+    rpc ConfirmTransaction(TransactionConfirmation) returns (TransactionConfirmation) {}
+}
+
+message AccountUpdate {
+    AccountInfo Owner = 1;
+    LumpState FromState = 2;
+    LumpState ToState = 3;
+}
+
+message LumpState {
+    repeated AccountInfo AccountState = 1;
+}
+
+message TransactionRequest {
+    AccountUpdate Transaction = 1;
+    bytes Signature = 2;
+    int32 Timestamp = 3;
+}
+
+message TransactionConfirmation {
+    TransactionRequest OriginalTransactionRequest = 1;
+    bool CurrentStatus = 2;
+    repeated PeerInfo PeersConfirmed = 3; 
+}
+
+message TransactionStatus {
+    string Status = 1;
+    int32 Timestamp = 2;
+    string Details = 3;
+}
+
+message PeerDemand {
+    int32 HowMany = 1;
+}
+
+message PeerInfo {
+    string Ipv4 = 1;
+    string Ipv6 = 2;
+    string Mdns = 3;
+    int32 Port = 4;
+    string Address = 5;
+}
+
+message TrustedPeerList {
+    repeated PeerInfo PeerList = 1;
+}
+
+message AccountInfo {
+    string AccountAddress = 1;
+    int32 AccountBalance = 2;
+    string TextMessage = 3;
+}
+
+message AccountDemand {
+    string AccountAddress = 1;
+}
+
+message CryptoMeta {
+    string Algorithm = 1;
+    string AlgoType = 2;
+    string Encoding = 3;
+}
